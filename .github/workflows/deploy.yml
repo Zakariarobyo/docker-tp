@@ -18,5 +18,6 @@ jobs:
 
       - name: Deploy to Railway (Docker)
         run: railway up --service=5c2dd876-4112-4fd8-beab-7772b52b1ed2
+
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
